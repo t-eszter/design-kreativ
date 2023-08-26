@@ -2,8 +2,7 @@ import React, { Component, useEffect } from 'react';
 import { Link } from 'react-router-dom'; 
 import logo from '../logo.svg';
 
-export default class Home extends Component {
-  render() {
+const Home = () => {
     useEffect(() => {
         document.title = 'Design Kreativ - Contact us for custom design, we are online!';
     }, []);
@@ -53,5 +52,6 @@ export default class Home extends Component {
         </div>
     </div>
     )
-  }
-}
+  };
+
+export default Home;
