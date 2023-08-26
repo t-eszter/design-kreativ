@@ -1,9 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import { Link } from 'react-router-dom'; 
 import logo from '../logo.svg';
 
 export default class Home extends Component {
   render() {
+    useEffect(() => {
+        document.title = 'Design Kreativ - Contact us for custom design, we are online!';
+    }, []);
+
     return (
     <div className='relative'>
       <div className='flex justify-center flex-col md:flex-row mx-12 z-50'>
