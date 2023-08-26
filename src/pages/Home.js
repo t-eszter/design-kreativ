@@ -17,7 +17,7 @@ export default class Home extends Component {
                 <Link to="/print">
                 <li className='anim1 px-10 py-4 border-4 hover:ring-8 hover:ring-offset-4 hover:ring-vivamagenta-300 border-vivamagenta-900 font-kumbh font-bold uppercase text-xl tracking-wider text-vivamagenta-900 bg-white hover:bg-vivamagenta-900 hover:text-white'>Print</li>
                 </Link>
-                <Link to="/social">
+                <Link to="/socialmarketing">
                 <li className='anim2 px-10 py-4 border-4 hover:ring-8 hover:ring-offset-4 hover:ring-vivapink-300 border-vivapink-900 font-kumbh font-bold uppercase text-xl tracking-wider text-vivapink-900 bg-white hover:bg-vivapink-900 hover:text-white'>Social Media</li>
                 </Link>
                 <Link to="/uiux">
@@ -33,7 +33,7 @@ export default class Home extends Component {
                 <li className='anim6 px-10 py-4 border-4 hover:ring-8 hover:ring-offset-4 hover:ring-vivamidnight-300 border-vivamidnight-900 font-kumbh font-bold uppercase text-xl tracking-wider text-vivamidnight-900 bg-white hover:bg-vivamidnight-900 hover:text-white'>Illustrations</li>
                 </Link>
                 <Link to="/photos">
-                <li className='anim7 px-10 py-4 border-4 hover:ring-8 hover:ring-offset-4 hover:ring-gray-300 border-gray-950 font-kumbh font-bold uppercase text-xl tracking-wider text-gray-950 hover:bg-gray-800 hover:text-white'>Photos</li>
+                <li className='anim7 px-10 py-4 border-4 hover:ring-8 hover:ring-offset-4 hover:ring-gray-300 border-gray-950 font-kumbh font-bold uppercase text-xl tracking-wider text-gray-950 hover:bg-gray-800 bg-white hover:text-white'>Photos</li>
                 </Link>
             </ul>
             <div className='w-full md:w-1/3 flex'>
