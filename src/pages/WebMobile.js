@@ -16,7 +16,6 @@ import comitas2 from '../img/webmobile/web-02-comitas.png';
 import comitas3 from '../img/webmobile/web-03-comitas.png';
 import skd1 from '../img/webmobile/web-01-skd.png';
 import skd2 from '../img/webmobile/web-02-skd.png';
-import skd3 from '../img/webmobile/web-03-skd.png';
 
 import Pager from '../components/Pager';
 
